@@ -1,0 +1,38 @@
+Node JS
+to run the js on server side
+file content:
+As soon as we intialize projexte we connect the Db
+and models are basically used for schemas and data stuctures
+contolers are mvc architecture and all
+It provides a runtime environment
+package.json file consists of all the node packages
+.env is for passwords of db 
+npm is node package manager
+express is used to handle the request response 
+----
+
+npm init creates a package.json file
+we can add a custom script to run node index.js just edit it inside the scripts in package.json and name it start
+
+-----
+express is a web framework for node.js
+and is use to listen 
+"/" is basically the home route  and 
+
+Concept of hot reload:
+when we make any change in the response and requst body we have a hot reload issue
+to eliminate it we use nodemon
+alternative to it is restart the server
+
+----
+.env file :
+first insatll the dotennv pachkage
+we need to define the port inside of it
+and we need to reqire it in the index
+and in listen just put process.env.port
+
+-----
+Deployment:
+Open github create a project in it
+
+

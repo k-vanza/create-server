@@ -1,0 +1,15 @@
+{
+  "name": "node_basics",
+  "version": "1.0.0",
+  "description": "an intro to node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "kanishk",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
