@@ -1,7 +1,12 @@
 require('dotenv').config()
 
+//importing the express package
 const express = require('express')
+
+//declaring the app object from express
 const app = express()
+
+//declaring the port number use 3000 only
 const port = 3000
 
 app.get('/', (req, res) => {
@@ -18,7 +23,7 @@ app.get('/kanishk', (req,res) => {
     console.log("hello kanishk")
 })
 
-
+//once a req or response is made we need a listner that listens to the res on that port
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
